@@ -67,6 +67,9 @@
 
 }
 @media screen and (max-width : 920px){
+    header{
+    padding: 0 20px;
+  }
   .main_video .reservation{
     flex-direction: column;
     width: 167px;
@@ -78,6 +81,9 @@
 }
 
 @media screen and (max-width : 450px){
+    header .header_i .logo{
+    max-width: 130px; 
+  }
   footer .footer_textWrap ul{
     font-size: 9px;
   }
