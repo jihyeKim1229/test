@@ -15,6 +15,9 @@
 }
 
 @media screen and (max-width : 1200px) {
+    .main_video{
+    top: 0;
+  }
   .main_video .reservation {
     flex-direction: column;
     width: 900px;
