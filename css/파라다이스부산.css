@@ -188,7 +188,6 @@ header .clickmenu {
 .main_video .videoWrap {
   max-width: 100%;
   overflow: hidden;
-
 }
 
 .main_video .videoWrap video {
@@ -285,8 +284,8 @@ header .clickmenu {
   text-align: center;
 }
 
-.specialoffers .container .event {
-  margin-bottom: 50px;
+.specialoffers .eventbox .event figure {
+  overflow: hidden;
 }
 
 .specialoffers .container .text_box {
