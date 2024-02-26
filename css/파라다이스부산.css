@@ -87,6 +87,7 @@ header .util li {
 
 header li:hover {
   color: #4F463D;
+  transition: 0.1s;
 }
 
 header .language {
@@ -152,6 +153,7 @@ header .clickmenu {
 
 .mobile_menu .close_wrap li:hover {
   color: #4F463D;
+  transition: 0.1s;
 }
 
 /* //햄버거바 클릭시 나타날 메뉴 */
