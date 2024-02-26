@@ -10,6 +10,8 @@
   <title>파라다이스 부산 웹템플릿</title>
   <script src="./script/jquery-3.7.1.min.js"></script>
   <script src="./script/js/bootstrap.min.js"></script>
+  <script src="./script/파라다이스.js"></script>
+
   <style>
     .t_hidden {
       display: block;
@@ -26,36 +28,36 @@
 
 <body>
   <!-- header -->
-    <header>
-      <div class="header_i">
-    <div class="logo_menu">
-      <h1 class="logo">
-        <a href="#">
-          <img src="./img/logo.png" alt="logo">
-          <span class="t_hidden">파라다이스</span>
-        </a>
-      </h1>
+  <header>
+    <div class="header_i">
+      <div class="logo_menu">
+        <h1 class="logo">
+          <a href="#">
+            <img src="./img/logo.png" alt="logo">
+            <span class="t_hidden">파라다이스</span>
+          </a>
+        </h1>
 
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="#">SPECIAL OFFERS</a>
-          </li>
-          <li>
-            <a href="#">ROOMS</a>
-          </li>
-          <li>
-            <a href="#">DINING</a>
-          </li>
-          <li>
-            <a href="#">WEDDINGS</a>
-          </li>
-          <li>
-            <a href="#">MEMBERSHIP</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="#">SPECIAL OFFERS</a>
+            </li>
+            <li>
+              <a href="#">ROOMS</a>
+            </li>
+            <li>
+              <a href="#">DINING</a>
+            </li>
+            <li>
+              <a href="#">WEDDINGS</a>
+            </li>
+            <li>
+              <a href="#">MEMBERSHIP</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
       <ul class="util">
         <li>
@@ -69,7 +71,7 @@
         </li>
       </ul>
 
-  </div>
+    </div>
     <button type="button" class="clickmenu">
       <img src="./img/햄버거바.png" alt="menu">
     </button>
@@ -171,11 +173,13 @@
   <section class="specialoffers">
     <h2 class="title">Special Offers</h2>
     <div class="container">
-      <div class="row justify-content-center eventbox1">
+      <div class="row justify-content-center eventbox">
 
         <div class="col-md-6 col-12">
-          <div class="event">
-            <img src="./img/sec1_spring.jpg" alt="WelcomeSpring">
+          <div class="event event1">
+            <figure>
+              <img src="./img/sec1_spring.jpg" alt="WelcomeSpring" class="img1">
+            </figure>
             <div class="text_box">
               <h3>Welcome Spring</h3>
               <span>2024.03.01~2024.04.01</span>
@@ -186,8 +190,10 @@
         </div>
 
         <div class="col-md-6 col-12">
-          <div class="event">
-            <img src="./img/sec1_propose.jpg" alt="propose">
+          <div class="event event2">
+            <figure>
+              <img src="./img/sec1_propose.jpg" alt="propose" class="img2">
+            </figure>
             <div class="text_box">
               <h3>로맨틱 프로포즈</h3>
               <span>2024.01.15~2024.06.15</span>
@@ -199,11 +205,13 @@
 
       </div>
 
-      <div class="row justify-content-center eventbox2">
+      <div class="row justify-content-center eventbox">
 
         <div class="col-md-6 col-12">
-          <div class="event">
-            <img src="./img/sec1_family.jpg" alt="family">
+          <div class="event event3">
+            <figure>
+              <img src="./img/sec1_family.jpg" alt="family" class="img3">
+            </figure>
             <div class="text_box">
               <h3>Family 전용</h3>
               <span>2024.01.18~2024.05.03</span>
@@ -214,8 +222,10 @@
         </div>
 
         <div class="col-md-6 col-12">
-          <div class="event">
-            <img src="./img/sec1_cimer.jpg" alt="cimer">
+          <div class="event event4">
+            <figure>
+              <img src="./img/sec1_cimer.jpg" alt="cimer" class="img4">
+            </figure>
             <div class="text_box">
               <h3>CIMER 스파</h3>
               <span>2024.02.01~2024.05.01</span>
@@ -325,11 +335,11 @@
             <h3>온더플레이트</h3>
             <span>천혜의 자연경관인 해운대 바다와 해변 그리고 초록빛 가든의<br>
               멋진 경치를 감상하며 미식을 즐길 수 있는 공간</span>
-              <p>
-                야외 테라스 다이닝 공간과 모든 섹션이 라이브로 운영되는 올 오픈 키친<br>(All Open Kitchen) 
-                그리고 마스터 셰프들이 전국 각지의 진귀하고 독특한 제철 식재료만을<br>
-                직접 엄선, 발굴하여각 지역 본연의 맛을 살린 럭셔리한 미식을 경험하세요.
-              </p>
+            <p>
+              야외 테라스 다이닝 공간과 모든 섹션이 라이브로 운영되는 올 오픈 키친<br>(All Open Kitchen)
+              그리고 마스터 셰프들이 전국 각지의 진귀하고 독특한 제철 식재료만을<br>
+              직접 엄선, 발굴하여각 지역 본연의 맛을 살린 럭셔리한 미식을 경험하세요.
+            </p>
 
           </div>
         </div>
@@ -346,7 +356,7 @@
               라이브 철판구이 코너, 프라이빗한 식사를 즐길 수 있는 별실이 있어<br>
               소중한 분과의 만남에 더욱 좋습니다.
             </p>
-            
+
           </div>
         </div>
 
@@ -369,12 +379,12 @@
             <h3>더비치라운지</h3>
             <span>천혜의 자연경관인 해운대 바다와 해변 그리고 초록빛 가든의<br>
               멋진 경치를 감상하며 미식을 즐길 수 있는 공간</span>
-              <p>
-                도심속의 힐링 공간, 아름다운 야외 정원과 해운대 바다가 어우러져 <br>
-                천혜의 자연을 담은 더 비치 라운지<br>
-                흥겨운 음악과 함께 즐기는 시원한 생맥주, 와인, 셰프 스페셜 메뉴들로 <br>
-                한 여름 밤의 추억을 선사합니다.
-              </p>
+            <p>
+              도심속의 힐링 공간, 아름다운 야외 정원과 해운대 바다가 어우러져 <br>
+              천혜의 자연을 담은 더 비치 라운지<br>
+              흥겨운 음악과 함께 즐기는 시원한 생맥주, 와인, 셰프 스페셜 메뉴들로 <br>
+              한 여름 밤의 추억을 선사합니다.
+            </p>
           </div>
         </div>
       </div>
