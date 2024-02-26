@@ -84,6 +84,17 @@
     header .header_i .logo{
     max-width: 130px; 
   }
+    .dining .dining_inner .text_wrap h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .dining .dining_inner .text_wrap span{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .dining .dining_inner .text_wrap p{
+    font-size: 12px;
+  }
   footer .footer_textWrap ul{
     font-size: 9px;
   }
