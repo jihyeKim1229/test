@@ -1,0 +1,198 @@
+@media screen and (max-width : 1400px) {
+
+  header .logo_menu .menu,
+  header .util {
+    display: none;
+  }
+
+  header .clickmenu {
+    display: block;
+  }
+  header .language {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width : 1200px) {
+  .main_video {
+    top: 0;
+  }
+
+  .main_video .reservation {
+    flex-direction: column;
+    width: 900px;
+  }
+
+  .main_video .reservation .formWrap {
+    justify-content: space-between;
+  }
+
+  .main_video .reservation .formWrap li {
+    margin: 0;
+  }
+
+  .main_video .reservation .reservation_button {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .roomslide .title_box h3>br{
+    display: block;
+  }
+
+  .dining .dining_inner .text_wrap h3 {
+    font-size: 20px;
+  }
+
+  .dining .dining_inner .text_wrap span {
+    font-size: 16px;
+  }
+
+  .dining .dining_inner .text_wrap p {
+    font-size: 14px;
+  }
+  .dining br{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width : 991px) {
+  .roomslide .title_box h3 {
+    font-size: 20px;
+  }
+
+  .wedding_banner h2 {
+    font-size: 30px;
+  }
+
+  .dining .dining_inner .text_wrap {
+    margin: auto;
+    height: 250px;
+  }
+
+  .dining .dining_inner .dining_img {
+    display: flex;
+    justify-content: center;
+  }
+  .dining .dining_inner .dining_img img{
+    width: 100%;
+  }
+
+  .dining .dining_inner .text_alignright {
+    text-align: start;
+  }
+
+  .dining .dining_inner .text_wrap h3 {
+    font-size: 24px;
+  }
+
+  .dining .dining_inner .text_wrap span {
+    font-size: 18px;
+  }
+
+  .dining .dining_inner .text_wrap p {
+    font-size: 16px;
+  }
+
+  footer .footer_textWrap ul {
+    font-size: 11px;
+  }
+
+  footer .footer_textWrap p {
+    font-size: 11px;
+  }
+  
+  footer .footer_inner .sns .sns_img{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_inner .sns .sns_img a{
+    width: 40px;
+  }
+}
+
+@media screen and (max-width : 920px) {
+  header {
+    padding: 0 20px;
+  }
+
+  .main_video .reservation {
+    flex-direction: column;
+    width: 167px;
+    height: 70px;
+  }
+
+  .main_video .reservation .formWrap {
+    display: none;
+  }
+
+  .membershipWarp .membershipItem {
+    padding: 30px 0;
+  }
+
+  .membershipWarp .membershipItem h3 {
+    font-size: 24px;
+  }
+
+  .membershipWarp .membershipItem p {
+    font-size: 14px;
+  }
+  .top_btn{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width : 450px) {
+  header .header_i .logo {
+    max-width: 130px;
+  }
+
+  .dining .dining_inner .text_wrap h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .dining .dining_inner .text_wrap span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .dining .dining_inner .text_wrap p {
+    font-size: 12px;
+  }
+
+  .membershipWarp .membershipItem h3 {
+    font-size: 20px;
+  }
+
+  .membershipWarp .membershipItem p {
+    font-size: 12px;
+  }
+
+  footer .footer_textWrap ul {
+    font-size: 8px;
+  }
+
+  footer .footer_textWrap p {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-height : 540px) {
+  .mobile_menu .close_wrap{
+    display: flex;
+  }
+  .mobile_menu .close_wrap .close_menu {
+    margin-bottom: 0;
+  }
+  .mobile_menu .close_wrap .close_util{
+    margin-left: 80px;
+  }
+}
