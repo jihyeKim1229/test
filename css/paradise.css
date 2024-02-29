@@ -165,8 +165,8 @@ header .clickmenu {
 
 /* top 버튼 */
 .top_btn {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: #b1a79ab4;
   border: none;
   border-radius: 100%;
@@ -178,6 +178,7 @@ header .clickmenu {
   font-size: 18px;
   z-index: 98;
   display: none;
+  padding: 0;
 }
 
 /* //top 버튼 */
