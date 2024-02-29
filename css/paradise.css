@@ -165,7 +165,6 @@ header .clickmenu {
 
 /* top 버튼 */
 .top_btn {
-  display: block;
   width: 70px;
   height: 70px;
   background-color: #b1a79ab4;
