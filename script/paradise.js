@@ -87,12 +87,16 @@ $(function (){
     }
   });
 
-  $(window).scroll(function(){
+   $(window).scroll(function(){
     let screenH = $(window).scrollTop();
     if(screenH>200){
-      $(".top_btn").fadeIn();
+      $(".top_btn").css({
+        display : 'block'
+      });
     }else{
-      $(".top_btn").fadeOut();
+      $(".top_btn").css({
+        display : 'none'
+      });
     }
   });
 
